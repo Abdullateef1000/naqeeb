@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: space-around;
+    font-family: "Times New Roman", sans-serif;
+}
+
+#container {
+    margin: 100px auto;
+    width: 80%;
+}
+
+body {
+    background-image: url(picture1.jpeg);
+    width: 100%;
+    height: 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    color: red;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding-right: 280px;
+}
+
+.nav span {
+    color: blue;
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: yellow;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+p {
+    font-size: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    text-decoration: underline orange;
+}
+
+.p2 {
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: blue;
+    border-radius: 20px;
+    width: 400px;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+    cursor: pointer;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.navbar ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: whitesmoke;
+    color: white;
+}
+
+.navbar ul li:hover .dropdown ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .dropdown ul li {
+    width: 150px;
+    padding: 10px;
+}
+
+.dropdown-1 {
+    display: none;
+}
+
+.dropdown ul li:hover .dropdown-1 {
+    font-family: "Times New Roman", Times, serif;
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: antiquewhite;
+}
+
+.dropdown-2 {
+    display: none;
+}
+
+.dropdown ul li:hover .dropdown-2 {
+    font-family: "Times New Roman", Times, serif;
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: antiquewhite;
+}
+
+.dropdown-3 {
+    display: none;
+}
+
+.dropdown ul li:hover .dropdown-3 {
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    background-color: antiquewhite;
+}
